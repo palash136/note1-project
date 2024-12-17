@@ -1,0 +1,44 @@
+.notes_content_note {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    gap: 1vw;
+    align-items: flex-start;
+    min-height: 15vh;
+    height: auto;
+    width: 73vw;
+    background-color: white;
+    margin: 2vh auto;
+    position: relative; 
+    padding-bottom: 3rem; 
+}
+
+.notes_content_date_time_details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    position: absolute; 
+    bottom: 10px; 
+    right: 10px; 
+}
+
+.notes_content_date {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.notes_content_time {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.notes_content_details {
+    width: 100%;
+    text-align: left;
+    margin: 0; 
+    padding-right: 1rem; 
+}
+

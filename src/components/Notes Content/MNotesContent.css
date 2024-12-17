@@ -1,0 +1,33 @@
+.m_notes_content_body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 10vh;
+    width: 95vw;
+    margin: 1vh;
+    background-color: white;
+    position: relative;
+}
+
+.m_notes_content_details {
+    min-height: 0; 
+    width: 100%;
+    text-align: left;
+    margin-left: 1vw;
+    padding-bottom: 4vh;
+}
+.m_notes_content_date_time_details {
+    position: absolute;
+    bottom: 10px;
+    right: 10px; 
+    display: flex; 
+    justify-content: flex-end; 
+    text-align: right;
+}
+
+.m_notes_content_date,
+.m_notes_content_time {
+    font-size: 2vh;
+    font-weight: 600;
+    margin: 0; 
+}
+
