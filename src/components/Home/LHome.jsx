@@ -1,7 +1,7 @@
 import React from 'react'
 import "./LHome.css"
-import home from "../../Assets/home.png"
-import lock from "../../Assets/lock.png"
+import home from "../../assets/home.png"
+import lock from "../../assets/lock.png"
 
 function LHome() {
   return (
