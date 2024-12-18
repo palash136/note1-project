@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./MNotes.css";
-import enter from "../../Assets/enter.png";
-import back from "../../Assets/back.png";
-import home from "../../Assets/home.png";
+import enter from "../../assets/enter.png";
+import back from "../../assets/back.png";
 import MNotesContent from "../Notes Content/MNotesContent";
 import UseContext from "../../useContext";
 
